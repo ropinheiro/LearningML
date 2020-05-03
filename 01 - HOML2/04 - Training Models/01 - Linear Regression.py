@@ -56,7 +56,3 @@ print("Predict=", lin_reg.predict(X_new))
 #       is called the Singular Value Decomposition (SVD).
 #       This is better than Normal Equation for a number of reasons.
 #       Learn more in HOML2, Chapter 4, pages 116-117.
-
-#
-# Sub-Section: ...
-#
