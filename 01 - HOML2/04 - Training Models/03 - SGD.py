@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #
-# Batch Gradient Descent
+# Stochastic Gradient Descent
 #
 print("---------------------------")
 print("Stochastic Gradient Descent")
