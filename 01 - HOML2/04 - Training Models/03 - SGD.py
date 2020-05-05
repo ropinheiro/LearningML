@@ -49,7 +49,7 @@ for epoch in range(n_epochs):
         plt.plot(X_new, y_predict, 'r-') # draw line for each step so that
                                          # we see how it approaches the end
 
-print("Final theta:", theta)
+print("Final theta =", theta)
 
 plt.show()
 
@@ -61,8 +61,8 @@ from sklearn.linear_model import SGDRegressor
 sgd_reg = SGDRegressor(max_iter=1000, tol=1e-3, penalty=None, eta0=0.1)
 sgd_reg.fit(X, y.ravel())
 
-print("Intercept:", sgd_reg.intercept_)
-print("Coeficients:", sgd_reg.coef_)
+print("Intercept =", sgd_reg.intercept_)
+print("Coeficients =", sgd_reg.coef_)
 
 # Note: instances are picked randomly, meaning that some could be
 #       used more than one time, and others are never used.
@@ -86,3 +86,13 @@ print("Coeficients:", sgd_reg.coef_)
 #       t1 leaving t0 proportionally unchanged, we set the learning rate
 #       speed. If we used only a t value for parametrization we would
 #       have trouble setting values for those 2 freedom angles.
+
+print("-------------------------")
+print("Ridge Regression with SGD")
+print("-------------------------")
+
+sgd_reg = SGDRegressor(penalty="l2")
+sgd_reg.fit(X, y.ravel())
+sgd_predict = sgd_reg.predict([[1.5]])
+
+print("Predict =", sgd_predict)
