@@ -91,8 +91,18 @@ print("-------------------------")
 print("Ridge Regression with SGD")
 print("-------------------------")
 
-sgd_reg = SGDRegressor(penalty="l2")
-sgd_reg.fit(X, y.ravel())
-sgd_predict = sgd_reg.predict([[1.5]])
+ridge_reg = SGDRegressor(penalty="l2")
+ridge_reg.fit(X, y.ravel())
+ridge_predict = ridge_reg.predict([[1.5]])
 
-print("Predict =", sgd_predict)
+print("Predict =", ridge_predict)
+
+print("-------------------------")
+print("Lasso Regression with SGD")
+print("-------------------------")
+
+lasso_reg = SGDRegressor(penalty="l1")
+lasso_reg.fit(X, y.ravel())
+lasso_predict = lasso_reg.predict([[1.5]])
+
+print("Predict =", lasso_predict)

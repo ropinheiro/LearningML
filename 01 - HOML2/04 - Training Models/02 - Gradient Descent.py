@@ -39,7 +39,7 @@ for iteration in range(n_iterations):
     plt.plot(X_new, y_predict, 'r-') # draw line for each step so that
                                      # we see how it approaches the end
 
-print("Final theta:", theta)
+print("Final theta = ", theta)
 
 plt.show()
 
@@ -58,3 +58,14 @@ plt.show()
 # Note: when using tolerance E, think that the lower the E value, the
 #       more precise will be the result. But think that dividing E
 #       by 10 will increase the computing time by 10 times.
+
+print("----------------------------------------")
+print("Lasso Regression with subgradient vector")
+print("----------------------------------------")
+
+from sklearn.linear_model import Lasso
+lasso_reg = Lasso(alpha=0.1)
+lasso_reg.fit(X, y)
+lasso_predict = lasso_reg.predict([[1.5]])
+
+print("Predict =", lasso_predict)

@@ -137,5 +137,3 @@ ridge_reg.fit(X, y)
 ridge_predict = ridge_reg.predict([[1.5]])
 
 print("Predict =", ridge_predict)
-
-
