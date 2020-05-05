@@ -137,3 +137,21 @@ ridge_reg.fit(X, y)
 ridge_predict = ridge_reg.predict([[1.5]])
 
 print("Predict =", ridge_predict)
+
+print("-----------")
+print("Elastic Net")
+print("-----------")
+
+from sklearn.linear_model import ElasticNet
+elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.5)
+elastic_net.fit(X, y)
+elastic_predict = elastic_net.predict([[1.5]])
+
+print("Predict =", elastic_predict)
+
+# Note: the Elastic Net is a mix between Ridge Regression and Lasso Regression
+#       (see 02 - GradientDescent for a Lasso Regression example) and the
+#       l1_ratio corresponds to the Elastic Net's mix ratio r - when r is 1,
+#       it becomes equivalent to Lasso Regression and, when it is 0, it is
+#       equivalent to the Ridge Regression. So, having it 0.5 gets some half
+#       contribution from each of Ridge and Lasso.
