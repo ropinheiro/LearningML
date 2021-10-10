@@ -127,4 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-01 - HOML2/10 - Keras and Tensorflow/my_logs/
+
+# Specific exclusions
+01-Book-HOML2/10 - Keras and Tensorflow/my_logs/
