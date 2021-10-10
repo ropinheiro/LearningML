@@ -24,3 +24,12 @@ Code produced while learning Machine Learning (ML)
 - URL: https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/
 
 - `Status: Done`
+
+### 03-PluSig-GettingStartedWithTF2
+
+- Course "Getting Started with TensorFlow 2.0" from Pluralsight.
+
+- URL: https://app.pluralsight.com/library/courses/getting-started-tensorflow-20
+
+- `Status: In Progress`
+
