@@ -16,3 +16,11 @@ Code produced while learning Machine Learning (ML)
 - Currently somewhere in the middle.
 
 - `Status: Stand-by`
+
+### 02-PyIS-BallTracking
+
+- Tutorial "Ball tracking with OpenCV" from PyImageSearch
+
+- URL: https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/
+
+- `Status: Done`
