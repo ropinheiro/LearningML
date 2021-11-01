@@ -33,3 +33,12 @@ Code produced while learning Machine Learning (ML)
 
 - `Status: In Progress`
 
+### 04-PyIS-OpenCV-101
+
+- OpenCV 101 - OpenCV Basics from PyImageSearch
+
+- URL: https://pyimagesearch.mykajabi.com/products/pyimagesearch-university-full-access-plan/categories/4663336
+
+- `Status: In Progress`
+
+

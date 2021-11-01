@@ -131,3 +131,4 @@ dmypy.json
 # Specific exclusions
 01-Book-HOML2/10 - Keras and Tensorflow/my_logs/
 02-PyIS-BallTracking/*.mp4
+04-PyIS-OpenCV-101/01-Loading and Displaying Images/output*.*
